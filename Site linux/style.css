@@ -1,0 +1,101 @@
+*{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+.header{
+    background-color: #272e33;
+    color: #48b9c7;
+    height: 8vh;
+    padding: 1vh 2vw;
+    display: flex;
+    align-items: center;
+    font-size: 6vh;
+}
+.m{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background: #333d46;
+}
+.cards{
+    height: 20vh;
+    width: 20vh;
+    background: #48b9c7;
+    border: 1px solid #ff8700;
+    border-radius: 25px;
+}
+.cardContainer{
+    margin-top: 10vh;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-auto-rows: 200px;
+    gap: 20px;
+    padding: 4px 8px;
+    height: 1900px;
+}
+#c1 {
+    grid-area: 1/1/3/3;
+    width: 100%;
+    height: 100%;
+    background: #48b9c7;   /* Azul Pop!_OS */
+    border-color: #ff8700;
+}
+#c2 {
+    grid-area: 1/3/3/6;
+    width: 100%;
+    height: 100%;
+    background: #87cf3e;   /* Verde Mint */
+    border-color: #222d23;
+}
+#c3 {
+    grid-area: 3/1/4/4;
+    width: 100%;
+    height: 100%;
+    background: #e95420;   /* Laranja Ubuntu */
+    border-color: #fff;
+}
+#c4 {
+    grid-area: 3/4/5/6;
+    background: #1793d1;   /* Azul Arch */
+    border-color: #1a1a1a;
+    width: 100%;
+    height: 100%;
+}
+#c5 {
+    grid-area: 4/1/5/4;
+    border-color: #00ff00;   /* Verde Terminal */
+    background: #181818;
+    width: 100%;
+    height: 100%;
+}
+#c6 {
+    grid-area: 5/1/6/6;
+    background: #f9e70c;   /* Amarelo Arch */
+    border-color: #222;
+    width: 100%;
+    height: 100%;
+}
+#c7 {
+    grid-area: 6/1/8/3;
+    background: #294172;   /* Azul Fedora */
+    border-color: #fff;
+    width: 100%;
+    height: 100%;
+}
+#c8 {
+    grid-area: 6/3/8/4;
+    background: #2e3b2f;   /* Verde escuro Mint */
+    border-color: #87cf3e;
+    height: 100%;
+}    
+#c9 {
+    width: 100%;
+    height: 100%;
+    grid-area: 6/4/8/6;
+    background: #272e33;   /* Cinza Pop!_OS */
+    border-color: #48b9c7;
+}
