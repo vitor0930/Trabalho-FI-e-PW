@@ -56,10 +56,10 @@ footer {
         gap: 20px;
         padding: 4px 8px;
         height: 4550px;
-        font-size: 10vh;
+        font-size: 6vw;
     }
     .divisores{
-        font-size: 17vh;
+        font-size: 10vw;
         color: white;
         overflow-y: hidden;
     }
@@ -230,5 +230,13 @@ footer {
     .cards {
         width: 80vw;
         height: 200px;
+        font-size: 4vw;
+    }
+    .divisores{
+        font-size: 5vh;
+        width: 70vw;
+        height: 200vh;
+        color: white;
+        overflow-y: hidden;
     }
 }
