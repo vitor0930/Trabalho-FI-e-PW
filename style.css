@@ -24,7 +24,7 @@
     background: #333d46;
 }
 
-.cards {
+.cards{
     height: 20vh;
     width: 20vh;
     border-radius: 25px;
@@ -33,6 +33,7 @@
     justify-content: center;
     align-items: center;
     color: white;
+    font-size: 6vw;
 }
 footer {
     height: 10vh;
@@ -47,7 +48,7 @@ footer {
 
 @media (max-width: 1920px) {
 
-    .cardContainer {
+    .cardContainer{
         width: 70vw;
         margin-top: 10vh;
         display: grid;
@@ -57,6 +58,7 @@ footer {
         padding: 4px 8px;
         height: 4550px;
         font-size: 6vw;
+
     }
     .divisores{
         font-size: 10vw;
@@ -212,11 +214,32 @@ footer {
     
 
     .cards:hover {
-        transform: scale(1.02);
-        transition: all 0.3s ease-in-out;
         cursor: pointer;
 
     }
+    .conteudo {
+        text-align: center;
+        font-size: 3vh;
+        padding: 20px 40px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 20px;
+        overflow: wrap;
+        color: white;
+    }
+    .conteudo:popover-open {
+    position: fixed !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    z-index: 9999;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+    min-width: 300px;
+    min-height: 100px;
+    background: inherit;
+}
 }
 
 @media (max-width: 720px) {
