@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="mim.css">
+    <link rel="icon" href="./assets/icons/linux-platform .png">
+    <title>Pagina inicial</title>
+</head>
+
+<body>
+    <header class="header"><img src="./Imagens/linux.png" alt=""><span style="margin-left: 1vw;">Linux</span>
+    </header>
+    <main class="m">
+        <section class="cardContainer">
+            <div class="divisores" id="d1">Historia</div>
+            <button class="cards" id="c1" popovertarget="cont1"> <img src="Imagens/indrotuçao.png" alt="">
+                <div class="conteudo" id="cont1" popover><b>Introdução</b><br>
+                    Sistema operacional livre e de código aberto, usado
+                    em computadores, servidores, celulares e dispositivos embarcados. Conhecido por segurança,
+                    estabilidade e flexibilidade.</div>
+            </button>
+            <button class="cards" id="c2" popovertarget="cont2">
+                <img src="Imagens/76bb1e6f-9d70-4097-972a-a735c7e64026.png" alt="">
+                <div class="conteudo" id="cont2" popover><b>Criação</b><br>Criado em 1991 por Linus Torvalds,
+                    inspirado no Unix.
+                    Em 1992, entrou na Licença GPL, permitindo que todos pudessem usar e modificar.</div>
+            </button>
+            <button class="cards" id="c3" popovertarget="cont3">
+                Impacto<div class="conteudo" id="cont3" popover><b>Impacto</b><br>Presente em servidores,
+                    supercomputadores, Android, TVs, roteadores e até satélites.
+                </div>
+            </button>
+            <div class="divisores" id="d2">Comandos</div>
+            <button class="cards" id="c4" popovertarget="cont4">
+                <img src="Imagens/3ce827ff-92fe-4dec-8e40-ee12e4131b70.png" alt="">
+                <div class="conteudo" id="cont4" popover><b>Pastas</b><br>mkdir -> criar pasta <br>
+                    cd -> entrar <br>
+                    cd .. -> voltar <br>
+                    ls -> listar <br>
+                    rmdir -> apagar pasta vazia <br>
+                    rm -r -> apagar pasta com arquivos</div>
+            </button>
+            <button class="cards" id="c5" popovertarget="cont5">
+                <img src="Imagens/Arquivos.png" alt="">
+                <div class="conteudo" id="cont5" popover><b>Arquivos</b><br>touch -> criar arquivo <br>
+                    nano/vi -> editar <br>
+                    cat -> mostrar conteúdo <br>
+                    cp -> copiar <br>
+                    mv -> mover/renomear <br>
+                    rm -> apagar</div>
+            </button>
+            <button class="cards" id="c6" popovertarget="cont6">
+               Sistema<div class="conteudo" id="cont6" popover><b>Sistema</b><br>pwd -> caminho atual <br>
+                    date -> data/hora <br>
+                    df -h -> espaço em disco <br>
+                    uname -r -> versão do kernel <br>
+                    free -h -> uso de memória</div>
+            </button>
+            <button class="cards" id="c7" popovertarget="cont7">
+                <img src="Imagens/Usuarios.png" alt="">
+                <div class="conteudo" id="cont7" popover><b>Usuários</b><br>sudo -> admin <br>
+                    chmod -> permissões de arquivos <br>
+                    chown -> dono do arquivo</div>
+            </button>
+            <button class="cards" id="c8" popovertarget="cont8">
+                <img src="Imagens/WSk.png" alt="">
+                <div class="conteudo" id="cont8" popover><b>WSL Dicas</b><br>Abrir: wsl <br>
+                    Atualizar: sudo apt update && sudo apt upgrade -y <br>
+                    Instalar programas: sudo apt install nome_do_programa <br>
+                    Acessar Windows: cd /mnt/c</div>
+            </button>
+            <div class="divisores" id="d3">Distribuições</div>
+            <button class="cards" id="c9" popovertarget="cont9">
+                <img src="Imagens/Ubunto.png" alt="">
+                <div class="conteudo" id="cont9" popover><b>Ubuntu</b><br>Foco em facilidade de uso
+
+                    Ideal para iniciantes
+
+                    Baseado no Debian, com grande comunidade.
+                </div>
+            </button>
+            <button class="cards" id="c10" popovertarget="cont10">
+                <img src="Imagens/Fedora.png" alt="">
+                <div class="conteudo" id="cont10" popover style="color: black;"><b>Fedora</b><br>Voltado para
+                    desenvolvedores
+
+                    Sempre com tecnologias recentes
+
+                    Patrocinado pela Red Hat.</div>
+            </button>
+            <button class="cards" id="c11" popovertarget="cont11">
+                Debian<div class="conteudo" id="cont11" popover><b>Debion</b><br>Estável e confiável
+
+                    Base para várias outras distros (ex: Ubuntu)
+
+                    Muito usado em servidores.</div>
+            </button>
+            <div class="divisores" id="d4">Fundamentos</div>
+            <button class="cards" id="c12" popovertarget="cont12">
+                <img src="Imagens/karnel.png" alt="">
+                <div class="conteudo" id="cont12" popover><b>Kernel</b><br>É o núcleo do sistema, responsável por
+                    gerenciar hardware, memória, processos e comunicação entre programas.</div>
+            </button>
+            <button class="cards" id="c13" popovertarget="cont13">
+                <img src="Imagens/Shell.png" alt="">
+                <div class="conteudo" id="cont13" popover><b>Shell</b><br>Interface de linha de comando que
+                    interpreta os comandos do usuário.
+                    Exemplo popular: Bash.
+                </div>
+            </button>
+            <button class="cards" id="c14" popovertarget="cont14">
+                Sistema de arquivos<div class="conteudo" id="cont14" popover><b>Sistema de arquivos</b><br>Organiza
+                    dados em uma árvore de diretórios.
+                    Tudo é tratado como arquivo: dispositivos, processos e configurações.
+                </div>
+            </button>
+            <button class="cards" id="c15" popovertarget="cont15">
+                <img src="Imagens/Permissoes.png" alt="">
+                <div class="conteudo" id="cont15" popover><b>Permissões</b><br>Define quem pode ler, escrever
+                    ou executar arquivos e pastas.
+                    Controladas por chmod e chown</div>
+            </button>
+            <button class="cards" id="c16" popovertarget="cont16">
+                <img src="Imagens/Pacotes.png" alt="">
+                <div class="conteudo" id="cont16" popover><b>Pacotes</b><br>Programas são instalados em pacotes.
+                    Gestores comuns: apt (Debian/Ubuntu) e dnf (Fedora).</div>
+            </button>
+        </section>
+    </main>
+    <footer>
+        <p>Matheus Dorizo</p>
+        <p>Vinícius Jesus</p>
+        <p>Vitor Lopes</p>
+    </footer>
+</body>
+
+</html>
